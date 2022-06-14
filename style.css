@@ -1,0 +1,145 @@
+.attribution { font-size: 11px; text-align: center; color: whitesmoke; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+a{
+    color:whitesmoke;
+}
+
+
+
+  a:active {
+    
+    color: hsl(178, 100%, 50%);
+    background-color: transparent;
+    text-decoration: underline;
+    z-index: 2;
+  }
+
+  .image{
+    position:relative;
+  }
+
+.img-thumbnail{
+    border-radius: 10px;
+}
+
+.image-overlay{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: rgba(0, 255, 247, 0.6);
+  opacity: 0;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-overlay:active{
+  opacity:1;
+}
+
+
+body{
+  background:hsl(217, 54%, 11%);
+  font-size: 12px;
+  font-family: 'Outfit', sans-serif; 
+}
+
+
+.main-class{
+    display:grid;
+    grid-template-columns:1fr 400px 1fr;
+}
+
+
+.sub-class{
+    grid-column: 2 / 3;
+    margin-top:150px;
+    margin-left:20px;
+}
+
+
+.card {
+    box-shadow: 20px 35px 15px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 320px;
+    height: 600px;
+    background:hsl(216, 50%, 16%);
+    padding:20px;
+    display: table;
+    align-items: center;
+    border-radius: 20px;
+  }
+
+
+  .container{
+    height:400px;
+  }
+
+
+  p{
+    font-size: 18px;
+    color:hsl(215, 51%, 70%);
+  }
+
+
+  .main-data{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+  .data p{
+    display:inline-block;
+    font-size: 18px;
+    color:hsl(178, 100%, 50%);
+    padding-top: 5px;
+    margin-left:3px;
+    vertical-align: 2px;
+  }
+
+
+  .data2 p{
+    display:inline-block;
+    font-size: 18px;
+    align-items: center;
+    margin-right: 0;
+    vertical-align: 2px;
+    padding-top: 5px;
+    margin-left: 3px;  
+  }
+
+
+  .img-data2{
+    padding-left: 50px;
+  }
+
+
+  .img-data p{
+    padding-left: 20px
+  }
+  
+
+  hr {
+    border: 1px groove hsl(215, 51%, 70%);
+    margin-bottom: 15px;
+  }
+
+ 
+  .footer p{
+    display:inline-block;
+    font-size: 18px;
+    vertical-align: 20px;
+    padding-left: 10px;
+  }
+
+  
+ 
+
+
+  .rounded-circle{
+    border:2px solid gray;
+    border-radius: 50%;
+  }
